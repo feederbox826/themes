@@ -4,4 +4,4 @@ url: https://docs.stashapp.cc/user-interface-ui/custom-css-snippets/#alternative
 version: 0.1
 ui:
   css:
-  - alternative-tag-layout
+  - alternative-tag-layout.css
