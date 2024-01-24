@@ -1,0 +1,7 @@
+name: more-studio-row
+description: Display more studio per row
+url: https://docs.stashapp.cc/user-interface-ui/custom-css-snippets/#more-studio-per-row
+version: 0.1
+ui:
+  css:
+  - more-studio-row.css

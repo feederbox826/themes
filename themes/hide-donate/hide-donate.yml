@@ -1,0 +1,7 @@
+name: hide-donate
+description: Hide the Donate button.
+url: https://docs.stashapp.cc/user-interface-ui/custom-css-snippets/#hide-the-donate-button
+version: 0.1
+ui:
+  css:
+  - hide-donate
