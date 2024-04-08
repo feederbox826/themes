@@ -1,0 +1,130 @@
+:root {
+    --md-background: #121212;
+    --md-text-primary: #fafafa;
+    --md-text-secondary: rgba(255, 255, 255, 0.7);
+    --md-text-disabled: rgba(255, 255, 255, 0.5);
+    --md-divider: rgba(255, 255, 255, 0.12);
+    --md-btn-active: #fafafa;
+    --md-btn-hover: rgba(255, 255, 255, 0.08);
+    --md-btn-selected: rgba(255, 255, 255, 0.16);
+    --md-btn-disabled: rgba(255, 255, 255, 0.3);
+    --md-btn-disabledbg: rgba(255, 255, 255, 0.12);
+    --md-divider: rgba(255, 255, 255, 0.12);
+    --md-1dp: #1d1d1d;
+    --md-2dp: #212121;
+    --md-3dp: #242424;
+    --md-4dp: #272727;
+    --md-6dp: #2c2c2c;
+    --md-8dp: #2f2f2f;
+    --md-12dp: #333333;
+    --md-16dp: #363636;
+    --md-24dp: #383838;
+    --md-accent: #00344f;
+    --md-error: #93000a;
+    --md-success: #005231;
+    --md-surface-variant: #41474d;
+}
+
+/* global */
+.border-secondary {
+    border-color: var(--md-divider) !important;
+}
+
+.bg-secondary {
+    background-color: var(--md-1dp) !important;
+}
+
+body {
+    background-color: var(--md-background);
+}
+
+.card {
+    background-color: var(--md-1dp);
+}
+
+.popover, input.form-control {
+    background-color: var(--md-3dp);
+}
+
+nav.bg-dark {
+    background-color: var(--md-1dp) !important;
+}
+
+/* buttons */
+
+/* generic button calls */
+.btn:disabled, .btn-primary:disabled .btn-secondary:disabled {
+    background-color: var(--md-btn-disabledbg);
+    color: var(--md-btn-disabled);
+}
+
+.btn, .btn-primary, .btn-secondary {
+    border-color: var(--md-divider) !important;
+}
+
+.btn:hover, .btn:active,
+.btn-primary:hover, .btn-primary:active .btn-primary:focus,
+.btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus,
+.input-control:hover, .input-control:active, .input-control:focus {
+    background-color: var(--md-btn-hover);
+}
+
+.btn.active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled).active {
+    background-color: var(--md-btn-selected);
+}
+
+/* toggle switch */
+.custom-control-input:checked~.custom-control-label:before {
+    background-color: var(--md-accent);
+}
+.custom-control-label:before {
+    background-color: var(--md-surface-variant);
+}
+
+
+/* specific button-types */
+.btn.link {
+    color: var(--md-accent);
+}
+.btn-primary {
+    background-color: var(--md-accent);
+}
+.btn-secondary, .input-control {
+    background-color: var(--md-1dp);
+}
+.btn-danger {
+    background-color: var(--md-error);
+}
+.btn-success {
+    background-color: var(--md-success);
+}
+
+/* tables */
+table thead {
+    background-color: var(--md-1dp) !important;
+}
+
+.row {
+    background-color: var(--md-3dp) !important;
+}
+.row.bg-dark {
+    background-color: var(--md-2dp) !important;
+}
+
+/* search-item */
+.search-item {
+    background-color: var(--md-1dp);
+}
+
+/* scrollbar */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

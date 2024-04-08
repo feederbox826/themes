@@ -1,0 +1,7 @@
+name: material-dark
+description: Material Dark theme
+url: https://github.com/feederbox826/themes
+version: 0.0
+ui:
+  css:
+  - material-dark.css
