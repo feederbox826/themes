@@ -1,0 +1,9 @@
+name: direct-stream
+description: Adds styling to settings to indicate direct stream
+url: https://github.com/feederbox826/themes
+version: 0.1
+ui:
+  javascript:
+  - direct-stream.js
+  css:
+  - direct-stream.css

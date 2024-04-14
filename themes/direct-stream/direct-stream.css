@@ -1,0 +1,6 @@
+.vjs-source-selector[data-source="direct"] button {
+    color: green;
+}
+.vjs-source-selector[data-source="transcode"] button {
+    color: orange;
+}
