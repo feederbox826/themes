@@ -1,0 +1,7 @@
+name: wrap-subtag
+description: Wraps detail values (subtags)
+url: https://github.com/feederbox826/themes
+version: 0.1
+ui:
+  css:
+  - wrap-subtags.css
