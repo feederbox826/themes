@@ -1,0 +1,7 @@
+name: hide-ocount
+description: Hide O-Count and O-Count trakcers
+url: https://github.com/feederbox826/themes
+version: 0.1
+ui:
+  css:
+  - hide-ocount.css
