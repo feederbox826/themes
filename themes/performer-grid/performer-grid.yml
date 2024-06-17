@@ -1,0 +1,7 @@
+name: performer-grid
+description: Aligns performer details in a grid
+url: https://github.com/feederbox826/themes
+version: 0.1
+ui:
+  css:
+  - performer-grid.css
