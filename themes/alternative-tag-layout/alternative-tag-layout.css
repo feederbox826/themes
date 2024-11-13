@@ -56,25 +56,21 @@ h6,
 .zoom-0 .tag-card-image {
 	max-height: none;
 	height: 16rem;
-	width: 12rem;
 }
 
 .zoom-1 .tag-card-image {
 	max-height: none;
 	height: 20rem;
-	width: 15rem;
 }
 
 .zoom-2 .tag-card-image {
 	max-height: none;
 	height: 24rem;
-	width: 18rem;
 }
 
 .zoom-3 .tag-card-image {
 	max-height: none;
 	height: 28rem;
-	width: 21rem;
 }
 
 .zoom-0.tag-card,
