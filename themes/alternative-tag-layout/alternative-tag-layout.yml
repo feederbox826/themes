@@ -1,7 +1,7 @@
 name: alternative-tag-layout
 description: Changes the tags layout to show more images, and details on hover
 url: https://docs.stashapp.cc/user-interface-ui/custom-css-snippets/#alternative-tag-layout
-version: 0.2
+version: 0.2.1
 ui:
   css:
   - alternative-tag-layout.css

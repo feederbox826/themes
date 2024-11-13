@@ -14,6 +14,7 @@
 	line-height: none;
 }
 .tag-card .card-section .TruncatedText {
+	line-clamp: 1 !important;
 	-webkit-line-clamp: 1 !important;
 }
 .tag-card h1,
@@ -101,4 +102,9 @@ h6,
 }
 .tag-parent-tags {
 	display: none;
+}
+
+/* tag hover popover */
+div.tag-popover-card {
+	padding: 0;
 }

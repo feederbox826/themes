@@ -4,3 +4,4 @@ Copyright AGPLv3.0 [hijack_hornet](https://github.com/stashapp/Stash-Docs/commit
 
 # changes
 - remove width override for tags
+- remove hover popover padding
