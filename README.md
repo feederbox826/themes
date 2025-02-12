@@ -12,5 +12,7 @@
   - highlight settings icon when transcoding/ direct stream
 - hide-ocount
   - hide o-counter
+- no-speed
+  - hide videojs speed toggle
 
 Unless otherwise specified, code licenced under MIT
