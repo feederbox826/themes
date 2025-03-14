@@ -16,7 +16,7 @@
               isDirect() ? "direct" : "transcode"),
         );
     PluginApi.Event.addEventListener("stash:location", (e) => {
-      if (evt.data.location.pathname.startsWith("/scenes")) awaitVideo();
+      if (e.data.location.pathname.startsWith("/scenes")) awaitVideo();
     });
     if (location.pathname.startsWith("/scenes")) awaitVideo();
   })();
