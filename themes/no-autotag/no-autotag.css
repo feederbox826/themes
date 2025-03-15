@@ -1,0 +1,6 @@
+#tag-page .details-edit > div:not(.dropdown) > button.btn.btn-secondary,
+#performer-page .details-edit > div > button.btn.btn-secondary,
+#studio-page .details-edit > div > button.btn.btn-secondary,
+#settings-container .setting-section:has(a[href="/help/AutoTagging.md"]) {
+	display: none;
+}
