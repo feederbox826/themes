@@ -14,5 +14,7 @@
   - hide o-counter
 - no-speed
   - hide videojs speed toggle
+- noto-emoji-color
+  - Add emoji font to stash
 
 Unless otherwise specified, code licenced under MIT

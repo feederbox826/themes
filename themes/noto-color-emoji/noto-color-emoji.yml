@@ -1,0 +1,9 @@
+name: noto-color-emoji
+description: Noto Color Emoji font
+version: 2.047
+url: https://github.com/feederbox826/themes
+ui:
+  css:
+    - noto-color-emoji.css
+  assets:
+    /: font
